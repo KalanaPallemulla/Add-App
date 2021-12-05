@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="w-2/3 bg-white shadow-lg fixed top-6">
         <div className="flex justify-between px-4  h-20 items-center text-gray-700">
           <Link className="TF md:text-5xl text-3xl font-bold" to="/">
-            <span className="text-red-600">M</span>y{" "}
+            <span className="text-red-600">N</span>ew{" "}
             <span className="text-blue-600">J</span>ob
           </Link>
           <div className="hidden md:block">
