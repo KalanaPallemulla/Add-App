@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Join from "./pages/Join";
 
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/join" element={<Join />} />
-        <Route exact path="/add" element={<SingleCard />} />
+        <Route exact path="/add/:id" element={<SingleCard />} />
       </Routes>
     </BrowserRouter>
   );
