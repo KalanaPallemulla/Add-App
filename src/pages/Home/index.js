@@ -24,7 +24,7 @@ export default function Home() {
     <Container>
       <Filter isShow={isShow} setIsShow={setIsShow} />
       <h1 className="md:grid md:grid-cols-5">
-        {!addLoading ? (
+        {!addLoading && adds ? (
           adds.map((add) => (
             <div className="p-2">
               <Card key={add._id} add={add} />
